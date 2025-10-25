@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "/api",
+  baseURL: "https://clone-server-uqfd.onrender.com/api",
   withCredentials: true,
 });
 
